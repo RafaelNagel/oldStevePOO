@@ -1,20 +1,37 @@
+import classes.FabricaPicaretas;
 import classes.Picareta;
 
 public class Main {
     public static void main(String[] args) {
-        Picareta picareta1 = new Picareta("Madeira", 50, 5);
-        Picareta picareta2 = new Picareta("Pedra", 70, 7);
-        Picareta picareta3 = new Picareta("Ferro", 100, 12);
-        Picareta picareta4 = new Picareta("Ouro", 30, 10);
-        Picareta picareta5 = new Picareta("Diamante", 130, 15);
-        Picareta picareta6 = new Picareta("Netherite", 200, 20);
+        System.out.println("╔══════════════════════════════════════════════════════════╗");
+        System.out.println("║ VELHO STEVE - FÁBRICA DE PICARETAS ║");
+        System.out.println("╚══════════════════════════════════════════════════════════╝");
 
-        System.out.println("Abaixo, todas as picaretas com seus devidos atributos: ");
-        System.out.println(picareta1);
-        System.out.println(picareta2);
-        System.out.println(picareta3);
-        System.out.println(picareta4);
-        System.out.println(picareta5);
-        System.out.println(picareta6);
+        Picareta p1 = FabricaPicaretas.fabricar("madeira", 50, 5);
+        Picareta p2 = FabricaPicaretas.fabricar("pedra", 70, 8);
+        Picareta p3 = FabricaPicaretas.fabricar("ferro", 100, 12);
+
+        System.out.println("\nPicaretas fabricadas:");
+        System.out.println(" • " + p1);
+        System.out.println(" • " + p2);
+        System.out.println(" • " + p3);
+        System.out.println("\nUsando picareta de ferro para minerar...");
+
+        p3.minerar(30);
+        p3.minerar(20);
+
+        System.out.println("\nCriando picareta de ouro...");
+
+        Picareta p4 = FabricaPicaretas.fabricar("ouro", 30, 15);
+
+        System.out.println("\nReparando a picareta de ferro...");
+
+        p3.reparar(50);
+
+        System.out.println("\nEstado final das picaretas:");
+        System.out.println(" • " + p1);
+        System.out.println(" • " + p2);
+        System.out.println(" • " + p3);
+        System.out.println(" • " + p4);
     }
 }
