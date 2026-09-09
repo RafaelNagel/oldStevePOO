@@ -28,10 +28,18 @@ public class Main {
 
         p3.reparar(50);
 
+        System.out.println("\nCriando picaretas de esmeralda e netherite...");
+
+        Picareta p5 = FabricaPicaretas.fabricar("esmeralda", 110, 15);
+        Picareta p6 = FabricaPicaretas.fabricar("netherite", 150, 20);
+
+
         System.out.println("\nEstado final das picaretas:");
         System.out.println(" • " + p1);
         System.out.println(" • " + p2);
         System.out.println(" • " + p3);
         System.out.println(" • " + p4);
+        System.out.println(" • " + p5);
+        System.out.println(" • " + p6);
     }
 }

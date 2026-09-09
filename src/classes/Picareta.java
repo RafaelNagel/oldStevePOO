@@ -79,6 +79,18 @@ public class Picareta {
                 limiteMaximo = 30;
                 break;
 
+            case "esmeralda":
+                limiteMaximo = 110;
+                break;
+
+            case "diamante":
+                limiteMaximo = 130;
+                break;
+
+            case "netherite":
+                limiteMaximo = 150;
+                break;
+
             default:
                 limiteMaximo = 60;
         }
