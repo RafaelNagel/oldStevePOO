@@ -1,4 +1,4 @@
-Projeto de Refatoração POO — Geração Caldeira 2026
+# Projeto de Refatoração POO — Geração Caldeira 2026
 
 Projeto desenvolvido durante o **Geração Caldeira 2026** como atividade de reforço e prática dos conceitos de **Programação Orientada a Objetos (POO)**.
 
