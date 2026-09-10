@@ -21,14 +21,10 @@ O projeto aborda conceitos como:
 
 * Programação Orientada a Objetos;
 * Classes e objetos;
-* Encapsulamento;
 * Herança;
-* Polimorfismo;
-* Abstração;
 * Separação de responsabilidades;
 * Refatoração;
 * Design Patterns;
-* Boas práticas de desenvolvimento.
 
 ## Temática
 
